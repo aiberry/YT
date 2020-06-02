@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Quentin';
+  src: url('./Quentin.otf');
+}
+
+@font-face {
+  font-family: 'TiemposFine-Bold';
+  src: url('./TiemposFine-Bold.otf');
+}
+
+.background-container {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.background-container._lazy-background {
+  background-image: url(./assets/img/mainBack-min.png); /* Placeholder image */
+}
+
+.background-container._lazy-background._visible {
+  background-image: url(./assets/img/mainBack.png); /* The final image */
+}
+
+.main-container__rectangle {
+  background-color: #ffdf37;
+  width: 100px;
+  height: 9px;
+  margin: 0 auto;
+}
+
+.main-container__promo-text {
+  font-family: TiemposFine-Bold;
+  font-size: 4vmax;
+  color: white;
+  text-align: center;
+  line-height: 4.5vmax;
+  width: 70%;
+  margin: 7vh auto;
+}
+
+.main-container__promo-text span {
+  font-family: Quentin;
+  font-size: 5vmax;
+}
+
+.main-container__youtube-button {
+  color: #ffdf37;
+  font-size: 3vmax;
+  display: block;
+  margin: 0 auto;
+  background-color: #f0f8ff00;
+  border: none;
+  cursor: pointer;
+}
