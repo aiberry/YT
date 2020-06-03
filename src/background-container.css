@@ -5,11 +5,13 @@
 @font-face {
   font-family: 'Quentin';
   src: url('./fonts/Quentin.otf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'TiemposFine-Bold';
   src: url('./fonts/TiemposFine-Bold.otf');
+  font-display: swap;
 }
 
 .background-container {
@@ -22,6 +24,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  background-color: black;
 }
 
 .background-container.lazy-background {
