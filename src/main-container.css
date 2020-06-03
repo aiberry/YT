@@ -1,0 +1,39 @@
+.main-container__rectangle {
+  background-color: #ffdf37;
+  width: 100px;
+  height: 9px;
+  margin: 0 auto;
+}
+
+.main-container__promo-text {
+  font-family: TiemposFine-Bold;
+  font-size: 4vmax;
+  color: white;
+  text-align: center;
+  line-height: 4.5vmax;
+  width: 70%;
+  margin: 7vh auto;
+}
+
+.main-container__promo-text span {
+  font-family: Quentin;
+  font-size: 5vmax;
+}
+
+.main-container__youtube-button {
+  color: #ffdf37;
+  font-size: 3vmax;
+  display: block;
+  margin: 0 auto;
+  background-color: #f0f8ff00;
+  border: none;
+  cursor: pointer;
+}
+
+.main-container__youtube-button span {
+  color: #f0f8ff00;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+}

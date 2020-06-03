@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Quentin';
+  src: url('./fonts/Quentin.otf');
+}
+
+@font-face {
+  font-family: 'TiemposFine-Bold';
+  src: url('./fonts/TiemposFine-Bold.otf');
+}
+
 .background-container {
   margin: 0;
   width: 100vw;

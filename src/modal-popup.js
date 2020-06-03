@@ -1,8 +1,8 @@
 export default class ModalPopup {
-  constructor(btn) {
-    this.modal = document.getElementById('modalContainer');
+  constructor(btn, document) {
+    this.modal = document.getElementsByClassName('modal-popup')[0];
     this.btn = btn;
-    this.span = document.getElementsByClassName('modal__button-close')[0];
+    this.span = document.getElementsByClassName('modal-popup__button-close')[0];
     this.player = undefined;
     this.init = this.init.bind(this);
     this.destroy = this.destroy.bind(this);
