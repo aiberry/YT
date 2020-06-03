@@ -10,16 +10,31 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body class="background-container _lazy-background">
+  <body class="background-container lazy-background">
     <div class="main-container">
       <div class="main-container__rectangle"></div>
       <p class="main-container__promo-text">
         Digestion is<span> the key </span>to overall wellness in Body, Mind and
         Spirit
       </p>
-      <button class="main-container__youtube-button">
+      <button class="main-container__youtube-button" id="ytPlayBtn" tabindex="1">
         <i class="fa fa-youtube-play" aria-hidden="true"></i>
       </button>
+
+      <div id="modalContainer" class="modal">
+        <div class="modal__content-box">
+          <span class="modal__button-close">&times;</span>
+          <iframe
+            class="modal__video-window"
+            src="https://www.youtube.com/embed/5qap5aO4i9A?enablejsapi=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            id="player"
+          ></iframe>
+        </div>
+      </div>
     </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
   </body>
 </html>
